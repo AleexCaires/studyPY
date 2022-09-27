@@ -1,1 +1,1 @@
-# studyPY
+Scientific Computing with Python
