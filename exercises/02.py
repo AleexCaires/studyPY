@@ -16,7 +16,7 @@ print(pay)
 
 def computepay() :
     Hours = input("Enter hours:")
- 
+    
     H = float(Hours)
     if H > 40 :
         H = (H - 40) * 1.5 + 40
@@ -26,5 +26,5 @@ def computepay() :
     R = float(Rate)
     Payment = H * R 
     print("Payment:", Payment) 
-    
+
 computepay()
