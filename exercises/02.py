@@ -49,3 +49,22 @@ for itervar in [3, 41, 12, 9, 74, 15]:
         smallest = itervar
     print("Loop:", itervar, smallest)
 print("Smallest:", smallest)
+
+# Write a program which repeatedly reads numbers until the user enters 'done'. Once 'done' is entered, print out the total, count, and average of the numbers. If the user enter anything other than a number, detect their mistake, using try and expect and print an error message and skip to the next number
+
+num = 0
+total = 0.0 
+while True :
+
+    sval = input('Enter a number: ')
+    if sval == "done" :
+        break
+    try:
+        fval = float(sval)
+    except:
+        print('Invalid Input')
+        continue
+    num = num +1
+    total = num + fval
+
+    print(total,num,total/num);
