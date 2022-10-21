@@ -16,3 +16,5 @@ for line in fhand:
 quit() # -> is usefull when you want to stop executing because we discover some type of error
 
 continue #in the middle of the loop, skips to the next iteration of the loop 
+
+
