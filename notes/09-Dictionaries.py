@@ -6,3 +6,21 @@
 
 # 09 - Dictionaries B 
 
+# One common thing of Dictionaries is counting how often we "see" something
+
+counts = dict()
+names=['Alex','Tiago','Gomes','Caires']
+for name in names:
+    if name not in counts:
+        counts[name] = 1
+    else: 
+        counts[name]= counts[name]+1
+print(counts)
+
+# The get method for dictionaries
+
+counts = dict()
+names=['alex','caires','tiago']
+for name in names:
+    counts[name] = counts.get(name,0) + 1
+print(counts)
