@@ -23,3 +23,22 @@ print(y)
 #true
 
 
+#10 - Tuples B 
+#Sorting List of Tuples
+
+#- We can take advantage of the ability to sort a list of tuples to get a sorted list of a dictionary
+# First we sort the dictionary by the key using the items() method and sorted() function
+
+
+#Sorting by Values instead of key
+
+#If we could construct a list of tuples of the form(value,key) we could sort by value.
+#We do this with a for loop that creates a list of tuples
+#Example:
+
+c={'a': 10, 'b':1,'c':22}
+temp = list()
+for k,v in c.items():
+    temp.append((v,k))
+
+    
